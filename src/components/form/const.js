@@ -7,6 +7,4 @@ export const FormPage = [
      email:"Email: luxury_hotels@gmail.com",
 
     },
-  
- 
  ]
