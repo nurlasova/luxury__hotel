@@ -1,0 +1,68 @@
+@import "../global";
+
+.form{
+    padding: 260px 0 460px;
+
+&__title{
+    @include font($color-blue, 60px, 700, $font-gara);
+}
+&__text{
+    @include font($color-blue, 30px, normal, $font-mont);
+    margin-bottom: 166px;
+    line-height: 37px;
+}
+&__data{
+    @include font($color-blue, 35px, normal, $font-mont);
+    line-height: 49px;
+}
+&__map{
+    margin: 28px 0 54px;
+    display: flex;
+    align-items: center;
+}
+&__view{
+    @include font($color-blue, 40px, bold, $font-mont);
+    margin-right:30px;
+}
+&__forma{
+    display: flex;
+    flex-direction: column;
+
+}
+&__label{
+    @include font($color-blue, 25px, 500, $font-mont);
+    margin: 30px 0 8px;
+}
+&__textarea{
+    width: 570px;
+    height: 352px;
+    padding: 20px ;
+    outline: none;
+    @include font($color-blue, 20px, 500, $font-mont);
+}
+&__input{
+    @include font($color-blue, 20px, 500, $font-mont);
+    width: 570px;
+    height: 78px;
+    padding: 0 20px ;
+    border: 2px solid rgba(20, 39, 74, 0.5);
+    outline: none;
+}
+&__btn{
+    @include font($color-white, 25px, 700, $font-mont);
+    text-align: center;
+    padding: 25px;
+    background-color: #E0B973;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 75px  0 0  470px;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+}

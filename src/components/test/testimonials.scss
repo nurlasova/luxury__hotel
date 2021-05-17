@@ -1,0 +1,16 @@
+@import "../global";
+.review{
+    padding: 115px 0;
+    text-align: center;
+    &__title{
+        @include font($color-blue, 60px, bold, $font-gara);
+        text-align: center;
+    }
+    &__text{
+        margin: 25px 0 20px;
+        @include font($color-blue, 30px,  normal, $font-mont);
+    }
+    &__author{
+        @include font($color-blue, 25px,  normal, $font-mont);
+    }
+}

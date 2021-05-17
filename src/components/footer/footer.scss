@@ -1,0 +1,69 @@
+@import "../global";
+.footer {
+  &__bg{
+    padding-top: 144px;
+    background-image: url(../../assets/img/png/footer__bgimg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 80px;
+  }
+
+  &__row {
+    align-items: center;
+  }
+  &__item1 {
+    @include font($color-white, 14px, normal, $font-mont);
+  }
+  &__email{
+      color: $color-white;
+  }
+  &__menu {
+    justify-content: center;
+    align-items: center;
+  }
+  &__menu1{
+    align-items: center;
+  }
+  &__list {
+    @include font($color-white, 16px, normal, $font-mont);
+    padding-top: 20px;
+  }
+  &__svg {
+    margin-right: 10px;
+  }
+  &__logo{
+      margin-bottom: 10px;
+  }
+  &__text {
+    @include font($color-white, 16px, normal, $font-mont);
+}
+  &__input {
+    color: $color-white;
+    width: 130px;
+    height: 43px;
+    border-radius: 5px;
+    outline: 0;
+    border: 2px solid $color-yellow;
+    padding: 0 100px 0 24px;
+    background-color: transparent;
+  }
+  &__form {
+    margin-top: 20px;
+    position: relative;
+  }
+  &__button {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: $color-yellow;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+  }
+}

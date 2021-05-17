@@ -1,0 +1,39 @@
+@import "../global";
+
+.blocks{
+&__title{
+    @include font($color-blue, 60px, bold, $font-gara);
+    text-align: center;
+    padding: 82px 0 35px;
+}
+&__text{
+    @include font($color-blue, 25px, normal, $font-mont);
+    text-align: center;
+    padding-bottom: 82px;
+}
+&__button{
+    @include font($color-blue, 48px, bold, $font-mont);
+    text-align: center;
+    padding: 16px 227px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 185px;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+&__content{
+    position: relative;
+    
+}
+&__img{
+    margin-bottom: 185px;
+}
+
+
+}

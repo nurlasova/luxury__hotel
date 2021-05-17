@@ -1,0 +1,22 @@
+@import "../global";
+.button{
+   @include font($color-white, 25px,  700, $font-mont);
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: $color-yellow;
+    padding: 22px 32px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    &:hover{
+        transform: scale(1.1);
+    }
+   &__svg{
+       margin-right: 16px;
+   } 
+}

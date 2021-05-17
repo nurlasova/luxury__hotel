@@ -1,0 +1,45 @@
+@import "../global";
+
+.beach {
+  &__description {
+    @include font($color-blue, 36px, normal, $font-mont);
+    text-align: center;
+    padding: 83px 0 37px;
+  }
+  &__title {
+    @include font($color-blue, 60px, bold, $font-gara);
+    margin: 100px 0 25px;
+    width: 565px;
+  }
+  &__text {
+    @include font($color-blue, 25px, normal, $font-mont);
+    width: 535px;
+    line-height: 40px;
+  }
+  &__line {
+    border-left: 2px solid $color-blue; /* Параметры линии */
+    padding-left: 40px; /* Расстояние от линии до текста */
+  }
+  &__img {
+    margin-top: 65px;
+  }
+  &__img2 {
+    margin-top: 65px;
+    height: 85%;
+  }
+  &__button {
+    @include font($color-white, 25px, 700, $font-mont);
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: $color-yellow;
+    padding: 22px 60px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
