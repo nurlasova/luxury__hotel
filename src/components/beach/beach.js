@@ -1,6 +1,6 @@
 import "./beach.scss"
 import { RoomList } from './const'
-import {Button} from '../../components/btn/btn'
+import {Btn2} from '../../components/btn/btn'
 
 function Beach(){
     return(
@@ -15,7 +15,7 @@ function Beach(){
                        <div className="beach__line">
                        <h3 className="beach__title">{item.title}</h3>
                        <p className="beach__text">{item.text}</p>
-                       <Button name="Explore"/>      
+                       <Btn2  name="Explore"/>      
               </div>
            </div>
           

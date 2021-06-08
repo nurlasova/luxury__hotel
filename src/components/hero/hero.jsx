@@ -18,9 +18,10 @@ function Hero(){
         </div>
         </div>
          <Button className="hero__button"/>
+         <a  href="#footer"className="hero__scroolcontainer">
          <h4 className="hero__scrollname">Scroll</h4>
-        <a href="#footer" id = "#footer" Scroll > 
-        <img  src= {Scroll} className="hero__scroll"/> </a>
+          <img  src= {Scroll} className="hero__scroll"/> 
+         </a>
         </div>
       </div>
     </div>

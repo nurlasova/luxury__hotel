@@ -1,6 +1,6 @@
 @import "../global";
 .review{
-    padding: 115px 0;
+    padding: 55px 0;
     text-align: center;
     &__title{
         @include font($color-blue, 60px, bold, $font-gara);
@@ -13,4 +13,18 @@
     &__author{
         @include font($color-blue, 25px,  normal, $font-mont);
     }
+   
+    &__row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 170px auto 0;
+    }
+    .swiper-button-prev {
+        left:45%
+     }
+    .swiper-button-next {
+       right:45%
+    }
+    
 }

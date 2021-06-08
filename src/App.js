@@ -7,6 +7,8 @@ import Contact from './pages/contact/contact'
 import {Route, Switch} from 'react-router-dom'
 import Footer from './components/footer/footer'
 
+
+
 function App() {
   return (
     <>
@@ -19,7 +21,7 @@ function App() {
         </Switch>
      
      
-      <Footer id = "#footer"/>
+      <Footer/>
     </>
   );
 }

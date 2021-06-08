@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap");
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  src: url("../fonts/AGaramondPro-Semibold.eot");
+  src: local("Adobe Garamond Pro Semibold"), local("AGaramondPro-Semibold"), url("../fonts/AGaramondPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/AGaramondPro-Semibold.woff") format("woff"), url("../fonts/AGaramondPro-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.col-1 {
+  width: 8.333%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333%;
+}
+
+.col-5 {
+  width: 41.65%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review {
+  padding: 55px 0;
+  text-align: center;
+}
+
+.review__title {
+  color: #14274A;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Adobe Garamond Pro", serif;
+  text-align: center;
+}
+
+.review__text {
+  margin: 25px 0 20px;
+  color: #14274A;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.review__author {
+  color: #14274A;
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.review__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 170px auto 0;
+}
+
+.review .swiper-button-prev {
+  left: 45%;
+}
+
+.review .swiper-button-next {
+  right: 45%;
+}

@@ -8,7 +8,7 @@ function Footer(){
 return(
   <div>
     <div>
-      <div className="footer__bg">
+    <div className="footer__bg " id="#footer">
      <div className="container">
           <div className="row footer__row">
              <div className="col-3">

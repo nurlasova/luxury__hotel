@@ -1,4 +1,4 @@
 import './btn.scss'
-export function Button(props){
-    return     <button className="button">{props.name}</button>
+export function Btn2(props){
+    return     <button className="btn2">{props.name}</button>
 }
